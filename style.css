@@ -1,0 +1,73 @@
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.dados{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field, .date, .bottom {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.EditDelete{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    border-radius: 3px;    
+    transition: 0.7s;
+}
+
+.EditDelete:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    transition: 0.5;
+    
+}
+
+a:hover{
+    color: black;
+}
+
+.containerr{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+
